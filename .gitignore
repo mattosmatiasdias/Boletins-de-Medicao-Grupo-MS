@@ -1,0 +1,44 @@
+# Dependências
+node_modules
+/.pnp
+.pnp.js
+
+# Arquivos de Teste
+/coverage
+
+# Pasta de Build (Produção)
+/dist
+/build
+
+# Logs de erro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variáveis de Ambiente (SEGURANÇA)
+# Isso impede que você envie suas senhas do Supabase para o GitHub
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de Editor (VS Code, IntelliJ, etc.)
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dados locais do Supabase (caso use desenvolvimento local)
+# Se você quiser que suas migrações fiquem no GitHub, NÃO descomente a linha abaixo:
+# /supabase
